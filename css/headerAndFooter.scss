@@ -1,0 +1,171 @@
+ html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, font, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-weight: inherit;
+            font-style: inherit;
+            font-size: 100%;
+            font-family: inherit;
+            vertical-align: baseline;
+            }
+            /* define focus styles! */
+            :focus {
+                outline: 0;
+            }
+            body {
+                line-height: 1;
+                color: black;
+                background: white;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            h1, h2, h3 {
+                font-family: "Lato",sans-serif;
+            }
+            .navbar {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                height: 80px;
+            }
+            .logoCircle {
+                width: 52px;
+                height: 52px;
+                border-radius:40px;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #2098d1;
+            }
+            .glyphicon-queen {
+                padding-left: 7px;
+                padding-top: 8px;
+                font-size: 27px;
+                color: #ffffff;
+            }
+            .navbar-header .logo h1,
+            .navbar-header .logo h2,
+            #navbar_menu li {
+                margin-top: 4px;
+                letter-spacing: 1px;
+            }
+            .navbar-header .logo h1
+            {
+                font-size: 1.1em;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: #ffffff;
+            }
+            
+            .navbar-header .logo h2 {
+                font-size: 1em;
+                display: block;
+            }
+            #navbar_menu li {
+                padding-top: 10px;
+                text-transform: uppercase;
+            }
+            .intro h1,
+            .intro h2 {
+                letter-spacing: -0.01em;
+                display: block;
+                margin-bottom: .2em;
+                text-align: center;
+                max-width: 100%;
+                line-height: 100%;
+            }
+            
+            .intro h1 {
+                font-size: 2.4em;
+                font-weight: 900;
+            }
+            .intro h2,
+            h4{
+                font-family: serif;
+                font-size: 1.4em;
+                max-width: 630px;
+                margin: 0 auto;
+                padding-bottom: .2em;
+            }
+            .btn {
+                font-family: Arial,sans-serif;
+                margin-top: 30px;
+                margin-bottom: 0px;
+                padding-top: 10px;
+            }
+            
+            .footer {
+               // background-color: #222222;
+                height:420px;
+                padding-top: 10px;
+                margin-top: 30px;
+                margin-bottom: 0px;
+            }
+             .footer_menu,
+            .find_me_links,
+            .about_me,
+            .copy{
+                width:300px;
+                position: relative;
+                float: left;
+                font-size: 1em;
+                margin:40px;
+                padding: 10px;
+            }
+            .footer_menu li h2{
+                font-size: 1.2em;
+                margin-top: 10px;
+            }
+            .footer_menu li h3{
+                color: #ffffff;
+                font-size: .8em;
+            }
+           
+            .find_me_links li{
+                margin-top: 40px;
+                float: left;
+            }
+            .find_me_links li h3,
+            .about_me h3,
+            h3 {
+                color: #ffffff;
+                font-size: .8em;
+                letter-spacing: -0.01em;
+                text-align: left;
+            }
+            .find_me_links li img {
+                float: left;
+                vertical-align: middle;
+            }
+            .about_me h3 {
+                font-size: 1em;
+                line-height: 30px;
+                margin-top: 30px;
+            }
+            .about_me img {
+                height: 95px;
+                width:80px;
+                border-color: #000;
+                border-style:solid;
+                border-width: 3px;
+                float: left;
+                margin-right: 20px;
+                margin-bottom: 15px;
+                vertical-align: middle;
+            }
+            .copy {
+                width: 500px;
+                text-align: center;
+                margin-top: 80px;
+                margin-bottom: 0px;
+            }
+            p {
+                font-family: Arial,sans-serif;
+            }
